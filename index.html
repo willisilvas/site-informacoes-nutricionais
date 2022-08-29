@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo do site</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header> <!-- titulo -->
+        <h1>Titulo do conteudo</h1>
+    </header>
+
+    <section> <!-- quadro com os botoes -->
+        <div>
+            Altura(cm): <input type="number" name="altura" id="altura">
+            <br>Idade: <input type="number" name="idade" id="idade">
+            <br>Peso: <input type="number" name="peso" id="peso">
+            <br>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            <br><input type="button" value="Contar" onclick="contar()">
+            
+        </div> <!-- botões-->
+        <div id="res">
+            Texto para o resultado
+        </div>
+    </section>
+    <main>
+        <article>
+            <h1>texto do segundo conteudo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, iusto amet repellendus illum fugit obcaecati ullam rem consectetur, voluptates odio tenetur culpa repellat animi. Unde hic voluptate ratione rem accusamus.</p>
+            <p>link clicavel</p>
+
+        </article>
+    </main>
+    <footer> <!-- rodapé -->
+        <p>Marca aqui</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
